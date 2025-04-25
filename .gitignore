@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+logs/
+*.log
+
+# Airflow specific
+dags/__pycache__/
+plugins/__pycache__/
+config/__pycache__/
+airflow.db
+airflow.cfg
+webserver_config.py
+
+# Environment variables
+.env
+*.env
+
+# Docker specific
+*.pid
+*.log
+docker-compose.override.yml
+docker-compose*.yaml~
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python virtual environments
+venv/
+.env/
+
+# Pytest cache
+.pytest_cache/
+
+# IDE specific
+.vscode/
+.idea/
+*.iml
