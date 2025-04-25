@@ -115,7 +115,6 @@ services:
   airflow-webserver:
     <<: *airflow-common
     environment:
-      open_weather_api: bf6eeed6d9c75740f3ab9d46bcd69a6d
       <<: *airflow-common-env
     command: webserver
     ports:
