@@ -20,7 +20,7 @@ import os
 import requests
 
 def get_wheather_csv():
-    api_key = os.environ.get('open_weather_api') or "bf6eeed6d9c75740f3ab9d46bcd69a6d"
+    api_key = os.environ.get('open_weather_api')
     print(os.environ.get('open_weather_api'))
 
     city = "bengaluru"
